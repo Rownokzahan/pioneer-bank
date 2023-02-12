@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="mt-12 md:mt-24 text-center text-purple-800 text-3xl md:text-6xl font-bold">Welcome to Pioneer Bank</h1>
+    </header>
+    <main class="">
+        <!-- login section -->
+        <section class="mx-4 md:mx-16 lg:mx-32 mt-8 md:mt-16 p-6 md:p-16 shadow  rounded-md bg-gray-100">
+            <h2 class="text-2xl md:text-3xl font-semibold text-purple-800">Please Login</h2>
+            <form action="" class="flex flex-col items-baseline mt-7 gap-4">
+                <input type="email" id="email"
+                    class="w-full p-2 rounded border focus:outline focus:outline-purple-800 focus:text-purple-900"
+                    placeholder="Enter Email" autocomplete="off">
+                <input type="password" id="password"
+                    class="w-full p-2 rounded border focus:outline focus:outline-purple-800 focus:text-purple-900"
+                    placeholder="Enter Password" autocomplete="off">
+                <button type="submit" id="login-btn"
+                    class="bg-purple-800 py-2 px-5 rounded text-white hover:bg-purple-900">Enter</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="mt-12 md:mt-24 text-center bg-gray-800 text-white py-3 text-xs">
+        <p>&copy;
+            <script>document.write(new Date().getFullYear())</script>
+            Rownok Zahan. All right reserved
+        </p>
+    </footer>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
